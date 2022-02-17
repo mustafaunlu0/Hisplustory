@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/recyclerViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+
+        android:text="Deneme"
+        android:textColor="#432908"
+        android:textSize="23sp"
+        tools:layout_editor_absoluteX="5dp"></TextView>
+
+    <ImageView
+        android:id="@+id/recyclerViewImageView"
+        android:layout_width="278dp"
+        android:layout_height="176dp"
+        app:srcCompat="@drawable/file"
+        android:layout_gravity="center"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/recyclerViewComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selam"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#000000"
+        ></TextView>
+
+
+</LinearLayout>
